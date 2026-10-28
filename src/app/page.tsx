@@ -3,9 +3,10 @@ import { Footer } from '@/components/layout/Footer';
 import { MobileActionBar } from '@/components/layout/MobileActionBar';
 import { Hero } from '@/components/sections/Hero';
 import { Services } from '@/components/sections/Services';
+import { AreasServed } from '@/components/sections/AreasServed';
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs';
 import { HowItWorks } from '@/components/sections/HowItWorks';
 import { FAQ } from '@/components/sections/FAQ';
 import { Contact } from '@/components/sections/Contact';
 import { faqJsonLd, localBusinessJsonLd, websiteJsonLd } from '@/lib/seo';
-export default function Home() { return <><Header /><main><Hero /><Services /><WhyChooseUs /><HowItWorks /><FAQ /><Contact /></main><Footer /><MobileActionBar /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} /></>; }
+export default function Home() { return <><Header /><main><Hero /><Services /><AreasServed /><WhyChooseUs /><HowItWorks /><FAQ /><Contact /></main><Footer /><MobileActionBar /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} /></>; }

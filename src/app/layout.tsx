@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     locale: 'tr_TR',
     type: 'website',
     siteName: 'Esenyurt Acil Çilingir',
-    images: [{ url: '/images/url-preview.png', width: 934, height: 768, alt: 'Esenyurt Acil Çilingir kilit ve anahtar logosu' }],
+    images: [{ url: '/images/esenyurt-acil-cilingir-logo.png', width: 2172, height: 724, alt: 'Esenyurt Acil Çilingir logosu' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Esenyurt 7/24 Acil Çilingir',
     description: 'Esenyurt ve çevresinde 7/24 acil çilingir hizmeti.',
-    images: ['/images/url-preview.png'],
+    images: ['/images/esenyurt-acil-cilingir-logo.png'],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };

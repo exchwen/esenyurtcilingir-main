@@ -1,0 +1,24 @@
+# Esenyurt Acil Çilingir
+
+> Esenyurt ve çevresinde 7/24 acil çilingir, konut, oto, işyeri, kilit ve anahtar hizmetleri hakkında bilgi veren yerel işletme sitesi.
+
+## Ana sayfa
+- [Ana sayfa](/): Hizmetler, iletişim, adres ve Google Maps konumu.
+
+## Hizmetler
+- Konut çilingiri: Kapı açma ve kilit değişimi hakkında bilgi.
+- Oto çilingir: Araç kilidi ve anahtar hizmetleri hakkında bilgi.
+- İşyeri çilingiri: Ofis, dükkân ve depo kilit çözümleri.
+- Kilit sistemleri: Kilit montajı, bakım ve değişimi.
+- Anahtar çoğaltma: Anahtar kopyalama hakkında bilgi.
+
+## İletişim
+- Telefon: +90 545 533 73 34
+- E-posta: muratcetin.12334@gmail.com
+- Adres: Su Yolu Caddesi No: 40, Esenyurt, İstanbul
+- WhatsApp: https://wa.me/905455337334
+
+## Rehber
+- [Çilingir rehberi](/blog): Kilit ve anahtar sorunları hakkında pratik bilgiler.
+
+İletişim ve fiyat bilgisi için işletmeyle doğrudan iletişime geçilmelidir. Hizmet kapsamı, uygunluk ve fiyatlar iletişim sırasında doğrulanır.

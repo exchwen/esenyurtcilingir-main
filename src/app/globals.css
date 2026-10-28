@@ -206,7 +206,11 @@ button,a { -webkit-tap-highlight-color:transparent; }
 
 /* Final mobile layout overrides */
 @media (max-width:900px) { .why-grid { grid-template-columns:1fr; gap:36px; } }
+@media (max-width:900px) { .hero-copy { padding:70px 22px 26px; } }
 @media (max-width:520px) { .why-grid { gap:30px; }.why .section-heading h2 { font-size:clamp(32px,9vw,42px); }.quote-card { min-height:280px; } }
+
+/* Keep the hero accent line clear of the text on mobile. */
+@media (max-width:900px) { .hero-copy { padding-left:22px; } }
 
 /* Areas served section */
 .areas-served { background:#f3f1ec; }
@@ -234,7 +238,7 @@ button,a { -webkit-tap-highlight-color:transparent; }
   .nav { top:72px; padding:18px 16px 22px; }
   .nav > a { min-height:42px; display:flex; align-items:center; }
   .nav .button { width:100%; min-height:46px; }
-  .hero-copy { padding:70px 0 26px; }
+  .hero-copy { padding:70px 22px 26px; }
   .hero-buttons { gap:10px; }
   .hero-buttons .button { flex:1 1 160px; }
   .why-grid { grid-template-columns:1fr; gap:36px; }
@@ -287,7 +291,7 @@ button,a { -webkit-tap-highlight-color:transparent; }
   .nav { top:72px; padding:18px 16px 22px; }
   .nav > a { min-height:42px; display:flex; align-items:center; }
   .nav .button { width:100%; min-height:46px; }
-  .hero-copy { padding:70px 0 26px; }
+  .hero-copy { padding:70px 22px 26px; }
   .hero-buttons { gap:10px; }
   .hero-buttons .button { flex:1 1 160px; }
   .service-tabs { margin-right:-2px; margin-left:-2px; padding-right:2px; padding-left:2px; }

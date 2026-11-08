@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Esenyurt Acil Çilingir' }],
   creator: 'Esenyurt Acil Çilingir',
   publisher: 'Esenyurt Acil Çilingir',
+  verification: {
+    google: 't4z_pKkqwH2ImhaTkAAWecbzzwclNuYR4LpMiv2sg90',
+  },
   alternates: { canonical: siteUrlOrRoot() },
   openGraph: {
     title: 'Esenyurt 7/24 Acil Çilingir',

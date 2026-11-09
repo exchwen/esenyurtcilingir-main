@@ -1,3 +1,4 @@
+
 export const business = {
   name: 'Esenyurt Acil Çilingir',
   contactName: 'Murat Çetin',
@@ -11,4 +12,8 @@ export const business = {
   slogan: 'Güvenliğiniz Bizim İşimiz',
 };
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || undefined;
+const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+
+export const siteUrl = (
+  configuredSiteUrl || 'https://esenyurtcilingir.vercel.app'
+).replace(/\/+$/, '');

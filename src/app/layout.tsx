@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   verification: {
     google: 't4z_pKkqwH2ImhaTkAAWecbzzwclNuYR4LpMiv2sg90',
   },
-  alternates: { canonical: siteUrlOrRoot() },
+  alternates: { canonical: siteUrl },
   openGraph: {
     title: 'Esenyurt 7/24 Acil Çilingir',
     description: 'Esenyurt ve çevresinde 7/24 acil çilingir hizmeti.',
@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };
-
-function siteUrlOrRoot() { return process.env.NEXT_PUBLIC_SITE_URL ? '/' : undefined; }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="tr"><body>{children}</body></html>;

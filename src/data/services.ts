@@ -1,6 +1,7 @@
 import { Car, KeyRound, LockKeyhole, Building2, Copy } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
+// Bu veri listesi ana sayfadaki hizmet kartlarını oluşturur.
 export type Service = { title: string; description: string; icon: LucideIcon; image: string };
 export const services: Service[] = [
   { title: 'Konut Çilingiri', description: 'Kapı açma ve kilit değişimi ihtiyaçlarınız için bilgi alın.', icon: LockKeyhole, image: '/images/services/konut-cilingir.png' },
